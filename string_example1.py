@@ -1,4 +1,5 @@
 import sys
+#baekjoon 2941
 voca = list(input()) #input voca from user
 croatian_word = ('c=', 'c-', 'dz=', 'd-', 'lj', 'nj', 's=', 'z=') #dictionary of croatian word
 count_word = 0 #count the number of word
