@@ -1,5 +1,5 @@
 import sys
-
+#baekjoon 13305
 N = int(sys.stdin.readline()) # Input the number of city
 length = list(map(int, sys.stdin.readline().split())) # Input length of distance
 price =  list(map(int, sys.stdin.readline().split())) # Input price of oil
