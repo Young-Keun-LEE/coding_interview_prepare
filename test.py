@@ -1,2 +1,2 @@
-s = input()
-print(s[1])
+N = input()
+print(ord(N))
