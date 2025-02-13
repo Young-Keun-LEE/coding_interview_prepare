@@ -6,10 +6,10 @@ indegree = [0] * (v + 1)
 graph = [[] for _ in range(v + 1)]
 time = [0] * (v + 1)
 
-for i in range(v):
+for i in range(1, v + 1):
     data = list(map(int, input().split()))
     time[i] = data[0]
-    for x in data[1,-1]:
+    for x in data[1:-1]:
         graph[x].append(i)
         indegree[i] += 1
 
