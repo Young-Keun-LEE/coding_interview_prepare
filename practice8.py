@@ -52,7 +52,7 @@ def simulation():
             q.append((nx, ny))
         
         
-        if index < l and time == info[index][0]: #if should turn direction
+        if index < l and time == info[index][0]: #If should turn direction
             direction = turn(direction, info[index][1])
             index += 1
     
