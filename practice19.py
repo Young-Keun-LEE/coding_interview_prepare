@@ -14,9 +14,7 @@ def solution(N, stages):
     
     # Sort the stages by their failure rate in descending order
     q.sort(key = lambda x : -x[1])
-    result = []
-    for i in range(N):
-        result.append(q[i][0])
+    result = [x[0] for x in q]
     return result
         
 print(solution(4, [4,4,4,4,4]))
