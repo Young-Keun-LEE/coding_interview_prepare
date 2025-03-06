@@ -1,2 +1,2 @@
-# code_interview_prepare
-Prepare code interview 
+# coding_interview_prepare
+Prepare coding interview 
