@@ -1,1 +1,2 @@
-print(3/5)
+array = [1,2,3]
+print(array[3])
