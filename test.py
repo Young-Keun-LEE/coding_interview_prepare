@@ -1,8 +1,5 @@
-test = ["***", "* *", "***"]
-target = []
-target.extend(test * 3)
-target.extend(test * 3)
-target.extend(test * 3)
+import heapq
 
-print('\n'.join(test))
-print('\n'.join(target))
+array = []
+heapq.heapify(array)
+print(heapq.heappop(array))
